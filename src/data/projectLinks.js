@@ -22,7 +22,7 @@ export const projectLinks = [
     id: 'promo',
     title: 'Ver video de CanonScore',
     description: 'Conoce el proyecto en menos de 40 segundos',
-    url: '#',
+    url: 'https://youtube.com/shorts/nrtZzPo25HM?si=3i2Elt1AYBx7VV3v',
     icon: CirclePlay,
     variant: 'featured',
     badge: '0:40',
