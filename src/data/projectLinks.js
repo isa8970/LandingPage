@@ -42,7 +42,6 @@ export const projectLinks = [
     url: 'https://TU-VIDEO-TOUR.com',
     icon: Film,
     variant: 'default',
-    badge: '1:30',
   },
   {
     id: 'spa',

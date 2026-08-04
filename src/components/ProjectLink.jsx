@@ -2,16 +2,6 @@ import { ArrowUpRight } from './Icons';
 
 export default function ProjectLink({ item, index }) {
   const Icon = item.icon;
-  const isPlaceholder = item.url.includes('TU-');
-
-  const handleClick = (event) => {
-    if (isPlaceholder) {
-      event.preventDefault();
-      window.alert(
-        'Este enlace todavía es un marcador. Edítalo en src/data/projectLinks.js.',
-      );
-    }
-  };
 
   return (
     <a
@@ -19,7 +9,6 @@ export default function ProjectLink({ item, index }) {
       href={item.url}
       target="_blank"
       rel="noopener noreferrer"
-      onClick={handleClick}
       style={{ '--delay': `${index * 80}ms` }}
       aria-label={`${item.title}. ${item.description}`}
     >
