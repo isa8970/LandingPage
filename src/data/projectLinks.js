@@ -39,7 +39,7 @@ export const projectLinks = [
     id: 'tour',
     title: 'Ver tour por la aplicación',
     description: 'Recorrido breve por sus funciones principales',
-    url: '#',
+    url: 'https://drive.google.com/file/d/1tjFEo_Lop7I1Pw5HiFcwkJW88dY3LOyV/view?usp=sharing',
     icon: Film,
     variant: 'default',
   },
