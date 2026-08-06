@@ -63,7 +63,7 @@ export const projectLinks = [
     id: 'testimonial',
     title: 'Ver video testimonial',
     description: '¿Por qué es vital la toma correcta de requerimientos?',
-    url: '#',
+    url: 'https://drive.google.com/file/d/15azBwCQYOEAbsfjYycVpo7a9ukqfBVh3/view?usp=drivesdk',
     icon: MessageCircleMore,
     variant: 'default',
   },
